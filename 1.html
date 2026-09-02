@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+           <div id="menu">
+           <a href="#"></a>
+          
+            
+           </div>
+           <div class="gallery">
+               <a href="avenger-1.html"><img src="1.jpg"/></a>
+                
+           </div>
+      </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Countries Kits Edition</title>
+    <style>
+        /* --- CORE DESIGN STYLING --- */
+        body {
+            background-color: #0a0a0c;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* --- PRODUCT CARD CONTAINER --- */
+        .product-card {
+            background-color: #141418;
+            border: 1px solid #1f1f26;
+            border-radius: 12px;
+            width: 380px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            transition: border-color 0.3s ease;
+        }
+
+        .product-card:hover {
+            border-color: #00ff66; /* High-visibility green glow on hover */
+        }
+
+        /* --- PRICING LAYOUT --- */
+        .price-row {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .current-price {
+            font-size: 36px;
+            font-weight: 800;
+            color: #00ff66; /* Matches the sportswear brand green */
+            letter-spacing: -1px;
+        }
+
+        .original-price {
+            font-size: 18px;
+            color: #8a8a93;
+            text-decoration: line-through; /* Shows a clear sale discount */
+        }
+
+        .sale-badge {
+            background-color: rgba(0, 255, 102, 0.1);
+            color: #00ff66;
+            padding: 4px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        /* --- TEXT & HEADINGS --- */
+        .brand-name {
+            color: #8a8a93;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            margin: 0 0 10px 0;
+        }
+
+        .description {
+            color: #8a8a93;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        /* --- SPECIFICATION LIST --- */
+        .specs-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+            border-top: 1px solid #222;
+        }
+
+        .specs-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #222;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specs-label {
+            color: #8a8a93;
+        }
+
+        .specs-value {
+            font-weight: 600;
+        }
+
+        /* --- CALL TO ACTION BUTTON --- */
+        .buy-btn {
+            display: block;
+            width: 100%;
+            background-color: #00ff66;
+            color: #000000;
+            text-align: center;
+            padding: 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .buy-btn:hover {
+            background-color: #00d455;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 255, 102, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Product Card -->
+    <main class="product-card">
+        <span class="brand-name">World Jesrsey edition</span>
+        <h1 class="product-title">2026 WORLD CUP NATIONS</h1>
+        
+        <!-- Pricing Section -->
+        <div class="price-row">
+            <span class="current-price">$57.00</span>
+            <span class="original-price">$90.00</span>
+            <span class="sale-badge">Save 25%</span>
+        </div>
+
+        <p class="description">Ultimate Edition Jersey that unit the world of football</p>
+
+        <!-- Technical Details Grid -->
+        <ul class="specs-list">
+            <li>
+                <span class="specs-label">Size Availability</span>
+                <span class="specs-value">Size S,M,L,XL (Official Match)</span>
+            </li>
+            <li>
+                <span class="specs-label">Bladder Material</span>
+                <span class="specs-value">Reinforced Cotton Layer</span>
+            </li>
+            <li>
+                <span class="specs-label">Certification</span>
+                <span class="specs-value">FIFA Quality Pro Approved</span>
+            </li>
+            <li>
+                <span class="specs-label">Stock Status</span>
+                <span class="specs-value" style="color: #00ff66;">In Stock</span>
+            </li>
+        </ul>
+
+        <!-- Checkout Action -->
+        <button class="buy-btn">Add to Cart</button>
+    </main>
+
+</body>
